@@ -9,20 +9,12 @@ import com.firebase.ui.auth.data.model.FirebaseAuthUIAuthenticationResult
 class SignInActivity : AppCompatActivity() {
     private lateinit var binding: ActivitySignInBinding
 
-    // ActivityResultLauncher
-    // TODO: Implement
-
-    // Firebase instance variables
-    // TODO: implement
-
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
         binding = ActivitySignInBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        // Initialize FirebaseAuth
-        // TODO: implement
     }
 
     public override fun onStart() {
